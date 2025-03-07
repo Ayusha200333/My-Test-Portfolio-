@@ -10,10 +10,10 @@
 }
 
 :root{
-    --bg-color:#191f36;
-    --snd-bg-color:#262B40;
+    --bg-color:#988B8E;
+    --snd-bg-color:#68595A;
     --text-color:#fff;
-    --main-color:#59B2F4;
+    --main-color:#59430c;
 }
 
 html{
@@ -77,6 +77,7 @@ section{
 .home-content h3{
     font-size: 3.2rem;
     font-weight: 700;
+    color: #0E0202;
 }
 
 .home-content h3:nth-of-type(2){
@@ -132,11 +133,43 @@ span{
     box-shadow: 0 0 1rem var(--main-color);
     font-size: 1.6rem;
     color: var(--bg-color);
-    letter-spacing: 1rem;
     font-weight: 600;
     transition: .5s ease;
 }
 
 .btn:hover{
     box-shadow: none;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--snd-bg-color);
+}
+
+.about-img img{
+    width:20vw;
+    border-radius: 20%;
+}
+
+.heading{
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content h1{
+    font-size: 3.6rem;
+    margin: 2rem;
+}
+
+.about-content h3{
+    font-size: 2.6rem;
+    margin: 2rem;
+}
+
+.about-content p{
+    font-size: 2rem;
+    margin: 2rem;
 }
