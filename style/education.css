@@ -1,0 +1,90 @@
+.heading{
+    font-size: 8rem;
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.education{
+    padding: 100px 15px;
+    background: var(--snd-bg-color);
+}
+
+.education h1{
+    margin-bottom: 5rem;
+}
+
+.timeline-items{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.timeline-items::before{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color: var(--bg-color);
+    left:calc(50% - 1px);
+}
+
+.timeline-item{
+    margin-bottom: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.timeline-item:last-child{
+    margin-bottom: 0;
+}
+
+.timeline-item:nth-child(odd){
+    padding-right: calc(50% + 30%);
+    text-align: right;
+}
+
+.timeline-item:nth-child(even){
+    padding-left: calc(50% + 30%);
+}
+
+.timeline-dot{
+    height: 21px;
+    width: 21px;
+    background-color: var(--bg-color);
+    box-shadow: 0 0 25px var(--bg-color),
+                0 0 50px var(--bg-color);
+    position: absolute;
+    left: calc(50% - 50%);
+    border-radius: 50%;
+    top: 10px;
+}
+
+.timeline-content{
+    background-color: var(--snd-bg-color);
+    border: 3px solid var(--bg-color);
+    padding:  30px 50px;
+    border-radius: 4rem;
+    box-shadow:  0 0 10px var(--bg-color);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.timeline-content:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 25px var(--snd-bg-color);
+}
+
+.timeline-content h3{
+    font-size: 20px;
+    color: white;
+    margin: 0 0 10px;
+    font-weight: 500;
+}
+
+.timeline-content img{
+    width: 50px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+}
