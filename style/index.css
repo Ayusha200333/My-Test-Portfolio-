@@ -214,9 +214,65 @@ span{
     font-size: 5rem;
 }
 
+.container{
+    width:100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 250px;
+    height: 200px;
+    transition: 0.5s;
+    margin: 30px;
+    border-radius:20px;
+    background-color: var(--snd-bg-color);
+}
+
+.card .img{
+    width: 160px;
+    height: 200px;
+    position: relative;
+    z-index: 1;
+    top:-50px;
+    left: 55px;
+}
+
+.card .img img{
+    width: 80%;
+    height: 70%;
+}
+
+.card .content{
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+    transform: translateY(-150px);
+    opacity: 0;
+}
+
+
+.card:hover{
+    height: 220px;
+}
+
+.card:hover .content{
+    opacity: 1;
+    transform: translateY(-60px);
+    transition: 0.5s;
+}
+
+.card h2{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
 .services h1{
-    /*margin-bottom: 3rem;*/
-    /*margin-top: 3rem;*/
     text-align: center;
     font-size: 5rem;
 }
@@ -227,7 +283,7 @@ span{
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background: var(--bg-color);
+    background: var(--snd-bg-color);
 }
 
 .services-container{
@@ -239,11 +295,11 @@ span{
 }
 
 .services-container .services-box{
-    background: var(--snd-bg-color);
+    background: var(--bg-color);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
-    border: .5rem solid var(--bg-color);
+    border: .5rem solid var(--snd-bg-color);
     transition: .5s ease;
     width:300px;
     height: 500px;
@@ -272,7 +328,7 @@ span{
 }
 
 .projects {
-    background: var(--snd-bg-color);
+    background: var(--bg-color);
 }
 
 .projects h1 {
@@ -355,7 +411,7 @@ span{
 }
 
 .contact{
-    background-color: var(--bg-color);
+    background-color: var(--snd-bg-color);
 }
 
 .contact h1{
@@ -408,7 +464,7 @@ span{
     bottom: 0;
     width: 100%;
     padding: 40px 0;
-    background-color: var(--snd-bg-color);
+    background-color: var(--bg-color);
 }
 
 .footer .social{

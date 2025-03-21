@@ -3,41 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <title>Assignment</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/assignment.css">
+    <link rel="stylesheet" href="assets/lib/fontawesome">
 </head>
 <body>
-<header>
-    <div>
-        <img src="assets/image/A%20logo.jpeg" alt="A" width="40">
-        <br><br>
-        <nav>
-            <a href="#">Home</a> <a href="#">About</a> <a href="#">Skills</a> <a href="#">Service</a> <a href="#">Projects</a> <a href="#">Contact</a>
-        </nav>
-    </div>
+<header class="header">
+    <a href="#" class="logo">Ayusha</a>
+
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#service">Service</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
-<br>
 
-<section class="assignment section">
-    <div>
-        <h1>My Assignments</h1>
-    </div>
-    <br>
 
-    <div>
-        <h3>Assignment 01</h3>
-        <a href="#" class="btn">View</a>
-    </div>
-    <br>
+<section class="assignment">
+    <h1 class="heading">My <span>Assignments</span></h1>
 
-    <div>
-        <h3>Assignment 02</h3>
-        <a href="#" class="btn">View</a>
-    </div>
-    <br>
+    <div class="container">
+        <div class="card">
+            <div class="img" data-text="Assignment">
+                <img src="assets/image/Coding-Coffee.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Assignment 01</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim quasi provident accusamus repellendus necessitatibus.</p>
+                <a href="#" class="btn">View</a>
+            </div>
+        </div>
 
-    <div>
-        <h3>Assignment 03</h3>
-        <a href="#" class="btn">View</a>
+
+        <div class="card">
+            <div class="img" data-text="Assignment">
+                <img src="assets/image/Coding-Coffee.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Assignment 02</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim quasi provident accusamus repellendus necessitatibus.</p>
+                <a href="#" class="btn">View</a>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="img" data-text="Assignment">
+                <img src="assets/image/Coding-Coffee.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Assignment 03</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim quasi provident accusamus repellendus necessitatibus.</p>
+                <a href="#" class="btn">View</a>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="img" data-text="Assignment">
+                <img src="assets/image/Coding-Coffee.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Assignment 04</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim quasi provident accusamus repellendus necessitatibus.</p>
+                <a href="#" class="btn">View</a>
+            </div>
+        </div>
     </div>
 </section>
 
