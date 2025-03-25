@@ -224,7 +224,7 @@ span{
 }
 
 .card{
-    width: 250px;
+    width: 230px;
     height: 200px;
     transition: 0.5s;
     margin: 30px;
@@ -233,7 +233,7 @@ span{
 }
 
 .card .img{
-    width: 160px;
+    width: 150px;
     height: 200px;
     position: relative;
     z-index: 1;
@@ -256,7 +256,7 @@ span{
 
 
 .card:hover{
-    height: 220px;
+    height: 200px;
 }
 
 .card:hover .content{
