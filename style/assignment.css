@@ -30,6 +30,7 @@
     grid-gap: 15px;
     border-radius:20%;
 }
+
 .box{
     height: 250px;
     position: relative;
@@ -38,18 +39,22 @@
     border: .2rem solid var(--main-color);
 
 }
+
 .box .img{
     position: relative;
 }
+
 .box .img img{
     width: 100%;
     height: 310px;
     transform: scale(1);
     transition: transform 1s;
 }
+
 .box:hover .img img{
     transform: scale(1.2);
 }
+
 .box .content{
     position: absolute;
     width: 100%;
@@ -68,16 +73,18 @@
     flex-direction: column;
     text-align: center;
 }
+
 .box:hover .content{
     transform: scaleX(1);
 }
+
 .box .content h2{
     margin: 0 auto;
     color: black;
     font-size: 3.8em;
     text-align: center;
-
 }
+
 .box .content p{
     font-size: 0.9em;
     color: white;
@@ -97,8 +104,6 @@
     font-weight: bold;
     margin: .4rem 0 3rem;
     padding: 15px;
-
-
 }
 
 
