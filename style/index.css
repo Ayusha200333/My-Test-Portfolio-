@@ -210,6 +210,7 @@ span{
 
 
 .skills h1{
+    margin: 1rem;
     text-align: center;
     font-size: 5rem;
 }
@@ -271,7 +272,10 @@ span{
     font-size: 30px;
 }
 
+
+
 .assignment h1{
+    margin: 1rem;
     text-align: center;
     font-size: 5rem;
 }
@@ -288,11 +292,6 @@ span{
     background: var(--snd-bg-color);
 }
 
-.assignment h1 {
-    /*margin-bottom: 4rem;*/
-    text-align: center;
-    font-size: 5rem;
-}
 
 .container{
     width: 90%;
@@ -354,14 +353,7 @@ span{
 .box .content h2{
     margin: 0 auto;
     color: black;
-    font-size: 3.8em;
-    text-align: center;
-}
-
-.box .content p{
-    font-size: 0.9em;
-    color: white;
-    font-weight: lighter;
+    font-size: 3em;
     text-align: center;
 }
 
@@ -381,6 +373,7 @@ span{
 
 
 .services h1{
+    margin: 1rem;
     text-align: center;
     font-size: 5rem;
 }
@@ -440,7 +433,7 @@ span{
 }
 
 .projects h1 {
-    /*margin-bottom: 4rem;*/
+    margin: 1rem;
     text-align: center;
     font-size: 5rem;
 }
@@ -523,6 +516,7 @@ span{
 }
 
 .contact h1{
+    margin: 1rem;
     text-align: center;
     font-size: 5rem;
 }
