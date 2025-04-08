@@ -271,6 +271,114 @@ span{
     font-size: 30px;
 }
 
+.assignment h1{
+    text-align: center;
+    font-size: 5rem;
+}
+
+.assignment{
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--snd-bg-color);
+}
+
+.assignment {
+    background: var(--snd-bg-color);
+}
+
+.assignment h1 {
+    /*margin-bottom: 4rem;*/
+    text-align: center;
+    font-size: 5rem;
+}
+
+.container{
+    width: 90%;
+    margin: 50px auto 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    justify-content: center;
+    grid-gap: 15px;
+    border-radius:20%;
+}
+
+.box{
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2rem;
+    border: .2rem solid var(--main-color);
+
+}
+
+.box .img{
+    position: relative;
+}
+
+.box .img img{
+    width: 100%;
+    height: 310px;
+    transform: scale(1);
+    transition: transform 1s;
+}
+
+.box:hover .img img{
+    transform: scale(1.2);
+}
+
+.box .content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 5%;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(rgba(0,0,0,0.1),var(--main-color));
+    padding: 0 4rem;
+    box-sizing: border-box;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box:hover .content{
+    transform: scaleX(1);
+}
+
+.box .content h2{
+    margin: 0 auto;
+    color: black;
+    font-size: 3.8em;
+    text-align: center;
+}
+
+.box .content p{
+    font-size: 0.9em;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.box .content a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 4rem;
+    background: var(--text-color);
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: .4rem 0 3rem;
+    padding: 15px;
+}
+
 
 .services h1{
     text-align: center;
@@ -283,7 +391,7 @@ span{
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background: var(--snd-bg-color);
+    background: var(--bg-color);
 }
 
 .services-container{
@@ -295,11 +403,11 @@ span{
 }
 
 .services-container .services-box{
-    background: var(--bg-color);
+    background: var(--snd-bg-color);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
-    border: .5rem solid var(--snd-bg-color);
+    border: .5rem solid var(--bg-color);
     transition: .5s ease;
     width:300px;
     height: 500px;
@@ -328,7 +436,7 @@ span{
 }
 
 .projects {
-    background: var(--bg-color);
+    background: var(--snd-bg-color);
 }
 
 .projects h1 {
@@ -411,7 +519,7 @@ span{
 }
 
 .contact{
-    background-color: var(--snd-bg-color);
+    background-color: var(--bg-color);
 }
 
 .contact h1{
@@ -464,7 +572,7 @@ span{
     bottom: 0;
     width: 100%;
     padding: 40px 0;
-    background-color: var(--bg-color);
+    background-color: var(--snd-bg-color);
 }
 
 .footer .social{
